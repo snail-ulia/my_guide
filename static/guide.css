@@ -1,0 +1,20 @@
+/*cover*/
+
+main {
+	grid-area: main;
+	margin: 0;
+	padding: 20px;
+	grid-template-columns: 100%; 
+	display: grid; 
+	justify-items: center; 
+	grid-template-areas: "sidebar" "article";
+}
+
+#cover {
+	width: 95%;
+	grid-area: article;
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-right: 0px;
+	margin-bottom: 40px;
+}

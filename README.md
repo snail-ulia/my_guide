@@ -1,2 +1,3 @@
 # my_guide
-Django project.
+Website written in Django.
+This is my first website. And my first text to English.

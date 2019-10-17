@@ -1,0 +1,56 @@
+/*forms*/
+
+form {
+	width: 100%;
+	margin:10px;
+}
+
+fieldset {
+	padding: 20px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+legend {
+	text-align: left;
+	background-color: #ffffff; 
+} 
+
+form li {
+	list-style: none; 
+	width: 100%
+}
+
+
+input{
+	width: 95%;
+	height: 25px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+textarea {
+	width: 95%;
+	height: 100px;
+	margin: 10px;
+}
+
+
+#submit {
+	width: 50%;
+	height: 50px;
+	padding: 10px;
+	background-color: #496817;	
+	border: 0;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	font-family: 'Comfortaa', cursive;
+	color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	
+	form {
+		width: 100%;
+	}
+}
